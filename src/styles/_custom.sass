@@ -17,11 +17,9 @@
     top: 62%
     right: 4%
     width: 100px
-
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
@@ -57,10 +55,10 @@
   color: white !important
   
 .banner-principal__componente h1
-  color: black !important
+  color: $color-sistema-texto !important
 
 .banner-principal p
-  color: black !important
+  color: $color-sistema-texto !important
 
 .me-1
   color: white !important
@@ -72,7 +70,7 @@
   color: white !important
 
 .fas.fa-angle-right.txt--black
-  color: black !important
+  color: $color-sistema-texto !important
 .fa-puzzle-piece
   color: white !important
 
@@ -105,7 +103,7 @@
  width: 500px
  height: 500px
  padding: 5px
- border: 1px solid blue
+ border: 1px solid $color-sistema-texto
 
  ///formas
 
@@ -132,19 +130,8 @@
 .bxsh1
   box-shadow: 5px 13px 15px rgba(0,0,0,0.1)
 
-// pantallas pequeñas
-@media screen and ( max-width: 576px )
-  .mw-sm-350px
-    max-width: 350px
-    margin: 0 auto 1rem
-  
-  img
-    margin-bottom: 1.5rem
-    margin-top: 1.5rem
-
 
 ///tarjetas hover
-
 .crd_hover_txt
   position: relative
   padding: 0!important
@@ -192,7 +179,6 @@
     background-color: rgba( $white, .95 )
     *
       display: inline
-
   @media (max-width: $bp-max-md)
     padding-top: 40% !important
     &__img
@@ -201,7 +187,6 @@
     &__texto
       width: 100%
       left: 0%
-
   @media (max-width: $bp-max-xs)
     padding-top: 200px !important
     &__img
@@ -225,8 +210,7 @@
   height: 280px !important
   margin-top: 60px;
 
-/// slyder-A
-  
+/// slyder-A  
 .slyder-a
   position: relative
   &__btn
@@ -342,11 +326,6 @@
    @media (max-width: $bp-max-md)
     transform: translate(-1px, 0px) !important
 
-.tabs-a__tab
-  width: 170px
-  @media (max-width: $bp-max-md)
-    width: 370px
-
 
 .linea-tiempo-d
   &__item
@@ -363,7 +342,6 @@
     &__col-number
       display: flex
       flex-direction: column
-
     &__dots
       flex: 1
       display: flex
@@ -398,4 +376,28 @@
   .tarjeta
     border-radius: 5px
 
-  
+
+// 2026
+figcaption
+  font-weight: normal !important
+.fa-lista
+  li
+    display: flex !important
+    align-items: flex-start
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem 
+.tabs-a__tab__text
+  white-space: normal
+  overflow-wrap: break-word
+  word-break: break-word
+  hyphens: auto
+  -webkit-hyphens: auto
+  -ms-hyphens: auto
+@media (max-width: $bp-max-xs)
+  .slyder-a__bullets__item
+    margin: 0 2px
+
+.bg1
+  background-color: #EAF086

@@ -127,16 +127,9 @@ export default {
         'https://www.questionpro.com/blog/es/metodos-de-evaluacion-de-desempeno-mas-importantes/#:~:text=Evaluaci%C3%B3n%20360%20%E2%80%8B%E2%80%8Bgrados,obtener%20retroalimentaci%C3%B3n%20de%20fuentes%20externas.',
     },
     {
-      tema: 'Capacitación',
-      referencia:
-        'INFO G-TALENT. (2021). <i>Tutorial – Tipos de capacitación</i>.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=HgvcR67fjgI',
-    },
-    {
       tema: 'Salud ocupacional',
       referencia:
-        'Ley 1562 de 2012. Por la cual se modifica el sistema de riesgos laborales y se dictan otras disposiciones en materia de salud ocupacional. Julio 11 de 2012. ',
+        'Congreso de Colombia. Ley 1562 de 2012. Por la cual se modifica el sistema de riesgos laborales y se dictan otras disposiciones en materia de salud ocupacional. Julio 11 de 2012.  ',
       tipo: 'Documento legal',
       link:
         'https://www.minsalud.gov.co/Normatividad_Nuevo/Ley%201562%20de%202012.pdf',
@@ -144,9 +137,9 @@ export default {
     {
       tema: 'Comunicación empresarial',
       referencia:
-        'GCFAprendeLibre. (2022).<em> Tipo de comunicación organizacional Comunicación empresarial </em>(Video). ',
+        'GCFAprendeLibre. (2022). Tipo de comunicación organizacional Comunicación empresarial (Video). YouTube.',
       tipo: 'Video',
-      link: 'https://youtu.be/eb0kP8iMpWI',
+      link: 'https://www.youtube.com/watch?v=eb0kP8iMpWI&feature=youtu.be',
     },
   ],
   glosario: [
@@ -215,14 +208,10 @@ export default {
     {
       referencia:
         'Chiavenato, I. (2009). <i>Gestión del talento humano</i>. McGraw-Hill.',
-      link:
-        'http://repositorio.uasb.edu.bo:8080/bitstream/54000/1143/1/Chiavenato-Talento%20humano%203ra%20ed.pdf ',
     },
     {
       referencia:
         'Chiavenato, I. (2017). <i>Administración de recursos humanos. El capital humano de las organizaciones</i>. McGraw-Hill.',
-      link:
-        'https://www.sijufor.org/uploads/1/2/0/5/120589378/administracion_de_recursos_humanos_-_chiavenato.pdf ',
     },
     {
       referencia:
